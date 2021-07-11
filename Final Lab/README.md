@@ -2,7 +2,7 @@
 ## Final Lab : Covid Bluetooth Trace Simulator.
 ## Dimosthenis Iliadis-Apostolidis
 
-### A ready-to-run file named ./8811 is include. It has been compiled and cross-compiled and tested on rpi zero.
+### A ready-to-run file named ./8811 is included. It has been compiled and cross-compiled and tested on rpi zero.
 ### To recompile the file the steps are:
 
 1. Compile with gcc on PC
