@@ -2,6 +2,7 @@
 ## Final Lab : Covid Bluetooth Trace Simulator.
 ## Dimosthenis Iliadis-Apostolidis
 
+![](https://raw.githubusercontent.com/iliadisd/Real-Time-Embedded-Systems/main/Final%20Lab/execution.png)
 ### A ready-to-run file named ./8811 is included. It has been compiled and cross-compiled and tested on rpi zero.
 ### To recompile the file the steps are:
 
