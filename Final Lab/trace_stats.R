@@ -23,7 +23,7 @@ loss_rate = lost/259200
 #This means that 6% of bluetooth near us might not be found in these requirements, due to the delay.
 #We still have 100% accuracy on deleting, uploading and performing the tasks required.
 
-#Initialize a RT_delay vector. R is one-based, but in reality we have 0 -> (num_rows - 1) vectors.
+#Initialize a RT_delay vector. R is one-based, but in reality we have 0 -> (num_rows - 1) elements.
 #This is still num_rows elements.
 RT_delay = matrix(0:0, nrow = num_rows, ncol = 1)
 
