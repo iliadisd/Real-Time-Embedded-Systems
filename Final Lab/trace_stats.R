@@ -52,7 +52,7 @@ CPU_delay[1] = RT_delay[1]
 for (i in 2:num_rows){
   CPU_delay[i] = trace[i, 2] - trace[i , 1] * 0.1 - RT_delay[i-1]
 }
-#We expect CPU_delay to be different for every BTnearme() call and higher towards the end, cause of parallel execution.
+#We expect CPU_delay to be different for every BTnearme() call and higher towards the end.
 
 #Now we get the mean value of the delays.
 mean_CPU_delay = mean(CPU_delay)
