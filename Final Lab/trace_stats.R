@@ -86,7 +86,6 @@ plot(trace[ , 1] * 0.1, type="o", col="blue", xlab = "Timestamps", ylab = "RT_de
 lines(trace[, 2], type="o", pch=22, lty=2, col="red")
 #This shows that RT_delay is growing over time, but still is neglectable. 
 #Trying to make these two lines identical is ideal, but cannot be done.
-
 #Clear plot
 if(!is.null(dev.list())) dev.off()
 
